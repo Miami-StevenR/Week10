@@ -5,10 +5,8 @@ using UnityEngine.AI;
 
 public class SimpleNavMeshController : MonoBehaviour
 {
-    [SerializeField]
-    private NavMeshAgent _agent;
-    [SerializeField]
-    private Camera _camera;
+    [SerializeField] private NavMeshAgent _agent;
+    [SerializeField] private Camera _camera;
     // Start is called before the first frame update
     void Start()
     {
